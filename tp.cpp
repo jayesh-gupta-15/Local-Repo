@@ -5,12 +5,16 @@
 #include<string.h>
 using namespace std;
 
+int add( int a , int b){
+    return a+b;
+}
+
 int main(){
-    int t;
-    cin>>t;
+    int a, b;
 
+    cin>>a,b;
 
-    while(t--){
-        cout<<"Hello"<<endl;
-    }
+    cout<<add(a,b)<<endl;
+
+    return 0;
 }
